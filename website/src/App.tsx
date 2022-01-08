@@ -23,7 +23,7 @@ export default function App() {
           Simple React package development project example template.
         </p>
       </header>
-      <MarkdownPreview source={MDStr} className={styles.content} />
+      <MarkdownPreview source={MDStr} className={styles.markdown} />
     </div>
   );
 }
