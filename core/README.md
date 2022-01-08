@@ -15,12 +15,11 @@ Simple React package development project example template.
 │   ├── src           # Package source directory
 │   ├── dist.css
 │   ├── package.json
-│   ├── test
 │   └── tsconfig.json
 ├── lerna.json
 ├── package.json
 ├── tsconfig.json
-├── test
+├── test              # ⛑ test case
 └── website           # 🐝 Package example test, website
     ├── README.md
     ├── package.json
