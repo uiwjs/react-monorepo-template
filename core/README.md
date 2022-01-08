@@ -7,7 +7,7 @@ Simple React package development project example template.
 
 ```bash
 ├── LICENSE
-├── README.md
+├── README.md -> core/README.md
 ├── core              # 📦 package @vue-monorepo-template/base
 │   ├── README.md
 │   ├── cjs           # 🔄 Compiled cjs directory
@@ -20,6 +20,7 @@ Simple React package development project example template.
 ├── lerna.json
 ├── package.json
 ├── tsconfig.json
+├── test
 └── website           # 🐝 Package example test, website
     ├── README.md
     ├── package.json
