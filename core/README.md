@@ -1,7 +1,7 @@
 react-monorepo-template
 ===
 
-Simple React package development project example template.
+Simple [React](https://github.com/facebook/react) package development project example template.
 
 ## Directory Structure
 
