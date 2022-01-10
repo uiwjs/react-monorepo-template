@@ -8,13 +8,13 @@ Simple [React](https://github.com/facebook/react) package development project ex
 ```bash
 ├── LICENSE
 ├── README.md -> core/README.md
-├── core              # 📦 package @vue-monorepo-template/base
+├── core              # 📦 package @uiw/react-monorepo-template
 │   ├── README.md
 │   ├── cjs           # 🔄 Compiled cjs directory
 │   ├── esm           # 🔄 Compiled esm directory
 │   ├── src           # Package source directory
-│   ├── dist.css
-│   ├── package.json
+│   ├── dist.css      # 🔄 compile less to css
+│   ├── package.json  # name => @uiw/react-monorepo-template
 │   └── tsconfig.json
 ├── lerna.json
 ├── package.json
