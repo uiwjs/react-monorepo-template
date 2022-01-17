@@ -1,14 +1,13 @@
-import React from "react";
-import "./style/index.less";
+import React from 'react';
+import './style/index.less';
 
-export interface MonorepoTemplateProps
-  extends React.AllHTMLAttributes<HTMLDivElement> {
+export interface MonorepoTemplateProps extends React.AllHTMLAttributes<HTMLDivElement> {
   prefixCls?: string;
 }
 
 export default function MonorepoTemplate(props: MonorepoTemplateProps = {}) {
-  const { className, prefixCls = "w-template", children, ...others } = props;
-  const cls = [className, prefixCls].filter(Boolean).join(" ");
+  const { className, prefixCls = 'w-template', children, ...others } = props;
+  const cls = [className, prefixCls].filter(Boolean).join(' ');
   return (
     <div {...others} className={cls}>
       {children &&
