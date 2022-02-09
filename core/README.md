@@ -63,6 +63,8 @@ npm run test
 
 ## Contributors
 
+As always, thanks to our amazing contributors!
+
 <a href="https://github.com/uiwjs/react-monorepo-template/graphs/contributors">
   <img src="https://uiwjs.github.io/react-monorepo-template/CONTRIBUTORS.svg" />
 </a>
