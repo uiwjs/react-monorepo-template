@@ -61,6 +61,14 @@ npm run start
 npm run test
 ```
 
+## Contributors
+
+<a href="https://github.com/uiwjs/react-monorepo-template/graphs/contributors">
+  <img src="https://uiwjs.github.io/react-monorepo-template/CONTRIBUTORS.svg" />
+</a>
+
+Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
 ## License
 
 Licensed under the MIT License.
