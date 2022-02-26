@@ -1,6 +1,9 @@
 react-monorepo-template
 ===
 
+[![Build & Deploy](https://github.com/uiwjs/react-monorepo-template/actions/workflows/ci.yml/badge.svg)](https://github.com/uiwjs/react-monorepo-template/actions/workflows/ci.yml)
+[![Coverage Status](https://uiwjs.github.io/react-monorepo-template/badges.svg)](https://uiwjs.github.io/react-monorepo-template/coverage/lcov-report/)
+
 Simple [React](https://github.com/facebook/react) package development project example template.
 
 ## Directory Structure
