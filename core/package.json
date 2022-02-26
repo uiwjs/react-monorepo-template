@@ -13,6 +13,7 @@
   "module": "./esm/index.js",
   "files": [
     "dist.css",
+    "dist",
     "cjs",
     "esm",
     "src"
