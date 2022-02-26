@@ -4,6 +4,7 @@ import MarkdownPreview from '@uiw/react-markdown-preview';
 import styles from './App.module.less';
 import logo from './logo.svg';
 import MDStr from '@uiw/react-monorepo-template/README.md';
+import MonorepoTemplate from '@uiw/react-monorepo-template';
 
 export default function App() {
   // @ts-ignore
@@ -15,6 +16,7 @@ export default function App() {
         <img src={logo} className={styles.logo} alt="react logo" />
         <h1>React Monorepo Template {version}</h1>
         <p className={styles.info}>Simple React package development project example template.</p>
+        <MonorepoTemplate>import MonorepoTemplate from '@uiw/react-monorepo-template';</MonorepoTemplate>
       </header>
       <MarkdownPreview source={MDStr} className={styles.markdown} />
     </div>
