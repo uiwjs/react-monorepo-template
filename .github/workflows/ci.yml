@@ -47,6 +47,8 @@ jobs:
       - run: npm run hoist
       - run: npm run build
       - run: npm run coverage
+      - run: npm run bundle
+      - run: npm run bundle:min
       - run: npm run doc
 
       - name: Generate Contributors Images
@@ -55,6 +57,15 @@ jobs:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
           output: website/build/CONTRIBUTORS.svg
           avatarSize: 42
+
+      - name: Create Coverage Badges
+        uses: jaywcjlove/coverage-badges-cli@main
+        with:
+          output: website/build/badges.svg
+
+      - run: cp -rp coverage website/build
+      - run: cp -rp core/dist/*js website/build
+      - run: cp -rp core/dist/*css website/build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
