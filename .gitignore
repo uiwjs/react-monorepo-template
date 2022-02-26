@@ -23,6 +23,7 @@ package-lock.json
 # Editor directories and files
 .DS_Store
 .idea
+.lerna_backup
 .vscode
 *.suo
 *.ntvs*
