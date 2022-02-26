@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/index.less';
+import './styles/index.less';
 
 export interface MonorepoTemplateProps extends React.AllHTMLAttributes<HTMLDivElement> {
   prefixCls?: string;
