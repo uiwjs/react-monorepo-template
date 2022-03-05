@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple React package development project example template.",
   "private": true,
   "scripts": {
@@ -13,9 +13,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@uiw/react-monorepo-template": "1.0.0",
     "@uiw/react-github-corners": "~1.5.3",
     "@uiw/react-markdown-preview": "~3.5.1",
+    "@uiw/react-monorepo-template": "1.0.1",
     "react": "~17.0.2",
     "react-dom": "~17.0.2"
   },
