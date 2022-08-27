@@ -7,6 +7,7 @@ import MarkdownPreview from './Markdown';
 
 const Warpper = styled.div`
   padding-bottom: 12rem;
+  padding: 0 1rem;
 `;
 
 const Header = styled.header`
