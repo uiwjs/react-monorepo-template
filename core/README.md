@@ -64,6 +64,24 @@ npm run start
 npm run test
 ```
 
+
+### Using
+
+```jsx mdx:preview
+import React from "react";
+import MonorepoTemplate from '@uiw/react-monorepo-template';
+
+export default function App() {
+  return (
+    <div className="container">
+    <MonorepoTemplate>
+      Example test
+    </MonorepoTemplate>
+    </div>
+  );
+}
+```
+
 ## Contributors
 
 As always, thanks to our amazing contributors!
