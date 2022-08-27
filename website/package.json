@@ -1,15 +1,10 @@
 {
   "name": "website",
   "version": "1.1.0",
-  "description": "Simple React package development project example template.",
   "private": true,
   "scripts": {
     "start": "kkt start",
     "build": "kkt build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uiwjs/react-monorepo-template.git"
   },
   "license": "MIT",
   "dependencies": {
