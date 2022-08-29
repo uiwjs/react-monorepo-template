@@ -1,5 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import BackToUp from '@uiw/react-back-to-top';
 import { createGlobalStyle } from 'styled-components';
 import '@wcj/dark-mode';
 import App from './App';
@@ -52,6 +53,7 @@ const root = createRoot(container!);
 root.render(
   <React.StrictMode>
     <dark-mode permanent dark="Dark" light="Light" style={{ position: 'fixed', top: 8, left: 8, zIndex: 99 }} />
+    <BackToUp>Top</BackToUp>
     <GlobalStyle />
     <App />
   </React.StrictMode>,
