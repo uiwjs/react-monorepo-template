@@ -13,7 +13,7 @@ root.render(
     components={data.components}
     data={data.data}
     title={pkg.name}
-    description="Simple React package development project example template."
+    description={pkg.description}
     version={`v${VERSION}`}
   >
     <Github href="https://github.com/uiwjs/react-monorepo-template" />

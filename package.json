@@ -55,9 +55,8 @@
     "jest-environment-node": "^29.5.0",
     "jest-watch-typeahead": "^2.2.2",
     "lerna": "^7.1.4",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "pretty-quick": "^3.1.3",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.1",
     "tsbb": "^4.1.14"
   }
 }

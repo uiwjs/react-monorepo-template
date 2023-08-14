@@ -1,7 +1,7 @@
 {
   "name": "@uiw/react-monorepo-template",
   "version": "1.1.0",
-  "description": "React Monorepo Template.",
+  "description": "Simple React package development project example template..",
   "author": "Kenny Wong <wowohoo@qq.com>",
   "homepage": "https://uiwjs.github.io/react-monorepo-template",
   "repository": {
