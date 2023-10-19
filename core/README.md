@@ -33,32 +33,26 @@ Simple [React](https://github.com/facebook/react) package development project ex
 
 ## Development
 
-1. Install
+1. Dependencies in the installation package and example
 
 ```bash
-npm install
+npm run install
 ```
 
-2. Dependencies in the installation package and example
-
-```bash
-npm run hoist
-```
-
-3. To develop, run the self-reloading build:
+2. To develop, run the self-reloading build:
 
 ```bash
 npm run build  # Compile packages      📦 @uiw/react-monorepo-template
 npm run watch  # Real-time compilation 📦 @uiw/react-monorepo-template
 ```
 
-4. Run Document Website Environment:
+3. Run Document Website Environment:
 
 ```bash
 npm run start
 ```
 
-5. To contribute, please fork repos, add your patch and tests for it (in the `test/` folder) and submit a pull request.
+4. To contribute, please fork repos, add your patch and tests for it (in the `test/` folder) and submit a pull request.
 
 ```
 npm run test
