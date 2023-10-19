@@ -12,7 +12,7 @@ return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 349:
+/***/ 426:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var __webpack_unused_export__;
@@ -31,13 +31,13 @@ function q(c,a,g){var b,d={},e=null,h=null;void 0!==g&&(e=""+g);void 0!==a.key&&
 
 /***/ }),
 
-/***/ 501:
+/***/ 246:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(349);
+  module.exports = __webpack_require__(426);
 } else {}
 
 
@@ -130,14 +130,14 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ../node_modules/@babel/runtime/helpers/esm/typeof.js
-function _typeof(obj) {
+function _typeof(o) {
   "@babel/helpers - typeof";
 
-  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  }, _typeof(obj);
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) {
+    return typeof o;
+  } : function (o) {
+    return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+  }, _typeof(o);
 }
 ;// CONCATENATED MODULE: ../node_modules/@babel/runtime/helpers/esm/toPrimitive.js
 
@@ -176,26 +176,26 @@ function _defineProperty(obj, key, value) {
 }
 ;// CONCATENATED MODULE: ../node_modules/@babel/runtime/helpers/esm/objectSpread2.js
 
-function ownKeys(object, enumerableOnly) {
-  var keys = Object.keys(object);
+function ownKeys(e, r) {
+  var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var symbols = Object.getOwnPropertySymbols(object);
-    enumerableOnly && (symbols = symbols.filter(function (sym) {
-      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
-    })), keys.push.apply(keys, symbols);
+    var o = Object.getOwnPropertySymbols(e);
+    r && (o = o.filter(function (r) {
+      return Object.getOwnPropertyDescriptor(e, r).enumerable;
+    })), t.push.apply(t, o);
   }
-  return keys;
+  return t;
 }
-function _objectSpread2(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = null != arguments[i] ? arguments[i] : {};
-    i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
-      _defineProperty(target, key, source[key]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
-      Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+function _objectSpread2(e) {
+  for (var r = 1; r < arguments.length; r++) {
+    var t = null != arguments[r] ? arguments[r] : {};
+    r % 2 ? ownKeys(Object(t), !0).forEach(function (r) {
+      _defineProperty(e, r, t[r]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) {
+      Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
     });
   }
-  return target;
+  return e;
 }
 ;// CONCATENATED MODULE: ../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
 function _objectWithoutPropertiesLoose(source, excluded) {
@@ -234,7 +234,7 @@ var external_root_React_commonjs2_react_commonjs_react_amd_react_default = /*#__
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles = ({});
 // EXTERNAL MODULE: ../node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(501);
+var jsx_runtime = __webpack_require__(246);
 ;// CONCATENATED MODULE: ./src/index.tsx
 var _excluded=["className","prefixCls","children"];function MonorepoTemplate(){var props=arguments.length>0&&arguments[0]!==undefined?arguments[0]:{};var className=props.className,_props$prefixCls=props.prefixCls,prefixCls=_props$prefixCls===void 0?'w-template':_props$prefixCls,children=props.children,others=_objectWithoutProperties(props,_excluded);var cls=[className,prefixCls].filter(Boolean).join(' ');return/*#__PURE__*/(0,jsx_runtime.jsx)("div",_objectSpread2(_objectSpread2({},others),{},{className:cls,children:children&&external_root_React_commonjs2_react_commonjs_react_amd_react_default().Children.map(children,function(child){if(/*#__PURE__*/external_root_React_commonjs2_react_commonjs_react_amd_react_default().isValidElement(child))return child;return/*#__PURE__*/(0,jsx_runtime.jsxs)("span",{children:[" ",child," "]});})}));}
 })();
