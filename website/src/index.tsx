@@ -16,6 +16,14 @@ root.render(
     description={pkg.description}
     version={`v${VERSION}`}
   >
+    <MarkdownPreviewExample.NavMenu
+      title="Monorepo Template"
+      menus={[
+        <a target="_blank" href="https://jaywcjlove.github.io/#/sponsor" rel="noopener noreferrer">
+          Sponsor
+        </a>,
+      ]}
+    />
     <Github href="https://github.com/uiwjs/react-monorepo-template" />
   </MarkdownPreviewExample>,
 );
