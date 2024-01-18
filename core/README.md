@@ -1,6 +1,7 @@
 react-monorepo-template
 ===
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
 [![Build & Deploy](https://github.com/uiwjs/react-monorepo-template/actions/workflows/ci.yml/badge.svg)](https://github.com/uiwjs/react-monorepo-template/actions/workflows/ci.yml)
 [![Coverage Status](https://uiwjs.github.io/react-monorepo-template/badges.svg)](https://uiwjs.github.io/react-monorepo-template/coverage/lcov-report/)
 
